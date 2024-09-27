@@ -29,7 +29,7 @@ export function NotFoundPage() {
             {funnyText}
           </h2>
           <p className="text-xl text-gray-600">
-            看来你发现了我们的秘密基地！不过这里什么都没有...
+            页面维护更新ing...提交作业可直接通过微信发送!
           </p>
         </div>
         <div className="w-64 h-64 mx-auto">
@@ -55,9 +55,9 @@ export function NotFoundPage() {
         </div>
         <div className="space-y-4">
           <p className="text-gray-600">
-            别担心，我们可以一起找到回家的路！
+            我知道你很急，但是你先别急！！！
           </p>
-          <div className="flex justify-center space-x-4">
+          {/* <div className="flex justify-center space-x-4">
             <Button asChild className="bg-blue-500 hover:bg-blue-600">
               <Link href="/">
                 带我回家
@@ -68,7 +68,7 @@ export function NotFoundPage() {
                 继续探险
               </Link>
             </Button>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
