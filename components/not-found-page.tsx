@@ -57,18 +57,7 @@ export function NotFoundPage() {
           <p className="text-gray-600">
             我知道你很急，但是你先别急！！！
           </p>
-          {/* <div className="flex justify-center space-x-4">
-            <Button asChild className="bg-blue-500 hover:bg-blue-600">
-              <Link href="/">
-                带我回家
-              </Link>
-            </Button>
-            <Button variant="outline" asChild className="border-blue-500 text-blue-500 hover:bg-blue-100">
-              <Link href="/search">
-                继续探险
-              </Link>
-            </Button>
-          </div> */}
+
         </div>
       </div>
     </div>
