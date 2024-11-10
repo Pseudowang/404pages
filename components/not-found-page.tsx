@@ -7,11 +7,7 @@ export function NotFoundPage() {
   
   useEffect(() => {
     const funnyTexts = [
-      "哎呀，页面去度假了！",
-      "404：页面在玩捉迷藏",
-      "这里啥都没有，连404都不想来",
-      "页面可能被外星人绑架了",
-      "糟糕，页面被贪吃蛇吃掉了！"
+      "停止提交"
     ]
     setFunnyText(funnyTexts[Math.floor(Math.random() * funnyTexts.length)])
   }, [])
@@ -27,7 +23,7 @@ export function NotFoundPage() {
             {funnyText}
           </h2>
           <p className="text-xl text-gray-600">
-            页面维护更新ing...提交作业可直接通过微信发送!
+            停止提交
           </p>
         </div>
         <div className="w-64 h-64 mx-auto">
@@ -52,9 +48,6 @@ export function NotFoundPage() {
           </svg>
         </div>
         <div className="space-y-4">
-          <p className="text-gray-600">
-            我知道你很急，但是你先别急！！！
-          </p>
 
         </div>
       </div>
